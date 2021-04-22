@@ -14,14 +14,14 @@ function App() {
     <Router basename="/david-eldridge">
       <NavBar />
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/david-eldridge/">
           <ModalCard />
           <Home />
         </Route>
-        <Route exact path="/aboutme">
+        <Route exact path="/david-eldridge/aboutme">
           <AboutMe />
         </Route>
-        <Route exact path="/projects">
+        <Route exact path="/david-eldridge/projects">
           <Projects />
         </Route>
       </Switch>
