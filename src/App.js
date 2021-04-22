@@ -11,11 +11,11 @@ import { ModalCard } from "./components/ModalCard";
 
 function App() {
   return (
-    <Router>
-      <ModalCard />
+    <Router basename="/david-portfolio">
       <NavBar />
       <Switch>
         <Route exact path="/">
+          <ModalCard />
           <Home />
         </Route>
         <Route exact path="/aboutme">
