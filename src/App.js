@@ -11,7 +11,7 @@ import { ModalCard } from "./components/ModalCard";
 
 function App() {
   return (
-    <Router basename="/david-eldridge">
+    <Router basename={process.env.PUBLIC_URL}>
       <NavBar />
       <Switch>
         <Route exact path="/">
