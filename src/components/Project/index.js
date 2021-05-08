@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { Card, Col } from "react-bootstrap";
 import "./style.css";
 
@@ -19,7 +18,7 @@ export function RandomProject(props) {
         <Card.Text className="cardText">{props.project.description}</Card.Text>
       </a>
       <Card.Text>
-        <a className="Link" href={props.project.repo}>
+        <a className="repoLink" href={props.project.repo}>
           See the Code Here
         </a>
       </Card.Text>
@@ -43,13 +42,12 @@ export function AllProjects(props) {
           />
           <Card.Text className="cardText">
             <p>{props.project.description}</p>
-            <a className="Link" href={props.project.repo}>
+            <a className="repoLink" href={props.project.repo}>
               See the Code Here
             </a>
           </Card.Text>
         </Card>
       </a>
-      <Card.Text></Card.Text>
     </Col>
   );
 }
