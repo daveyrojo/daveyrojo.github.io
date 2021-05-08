@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/david-eldridge/static/css/main.582d3416.chunk.css",
-    "main.js": "/david-eldridge/static/js/main.68f19df3.chunk.js",
-    "main.js.map": "/david-eldridge/static/js/main.68f19df3.chunk.js.map",
+    "main.css": "/david-eldridge/static/css/main.7b259ac1.chunk.css",
+    "main.js": "/david-eldridge/static/js/main.af9113f2.chunk.js",
+    "main.js.map": "/david-eldridge/static/js/main.af9113f2.chunk.js.map",
     "runtime-main.js": "/david-eldridge/static/js/runtime-main.8e89694c.js",
     "runtime-main.js.map": "/david-eldridge/static/js/runtime-main.8e89694c.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/david-eldridge/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.23876631.chunk.js": "/david-eldridge/static/js/2.23876631.chunk.js",
-    "static/js/2.23876631.chunk.js.map": "/david-eldridge/static/js/2.23876631.chunk.js.map",
+    "static/js/2.2b639279.chunk.js": "/david-eldridge/static/js/2.2b639279.chunk.js",
+    "static/js/2.2b639279.chunk.js.map": "/david-eldridge/static/js/2.2b639279.chunk.js.map",
     "index.html": "/david-eldridge/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/david-eldridge/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.582d3416.chunk.css.map": "/david-eldridge/static/css/main.582d3416.chunk.css.map",
-    "static/js/2.23876631.chunk.js.LICENSE.txt": "/david-eldridge/static/js/2.23876631.chunk.js.LICENSE.txt"
+    "static/css/main.7b259ac1.chunk.css.map": "/david-eldridge/static/css/main.7b259ac1.chunk.css.map",
+    "static/js/2.2b639279.chunk.js.LICENSE.txt": "/david-eldridge/static/js/2.2b639279.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8e89694c.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.23876631.chunk.js",
-    "static/css/main.582d3416.chunk.css",
-    "static/js/main.68f19df3.chunk.js"
+    "static/js/2.2b639279.chunk.js",
+    "static/css/main.7b259ac1.chunk.css",
+    "static/js/main.af9113f2.chunk.js"
   ]
 }

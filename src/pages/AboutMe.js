@@ -29,7 +29,7 @@ function AboutMe () {
             </h3>
             <ul style={{ paddingLeft: "10.9rem", fontSize: "large" }}>
               <li style={{ padding: ".75rem" }}>Willingness to learn</li>
-              <li style={{ padding: ".75rem" }}>Willingness to learn</li>
+              <li style={{ padding: ".75rem" }}>Leadership</li>
               <li style={{ padding: ".75rem" }}>Determined</li>
               <li style={{ padding: ".75rem" }}>Resilient</li>
               <li style={{ padding: ".75rem" }}>Loving</li>
