@@ -7,7 +7,7 @@ export function RandomProject(props) {
   
   return (
     <Card className="randomCard">
-      <Link className="Link" href={props.project.url}>
+      <a className="Link" href={props.project.url}>
         <Card.Title className="cardTitle">{props.project.title}</Card.Title>
         <Card.Img
           className="projImg"
@@ -17,7 +17,7 @@ export function RandomProject(props) {
           fluid
         />
         <Card.Text className="cardText">{props.project.description}</Card.Text>
-      </Link>
+      </a>
     </Card>
   );
 }
@@ -26,7 +26,7 @@ export function AllProjects(props) {
   
   return (
     <Col lg={3} md={6} sm={12}>
-      <Link className="Link" href={props.project.url}>
+      <a className="Link" href={props.project.url}>
         <Card className="projCard">
           <Card.Title className="cardTitle">{props.project.title}</Card.Title>
           <Card.Img
@@ -40,7 +40,7 @@ export function AllProjects(props) {
             <p>{props.project.description}</p>
           </Card.Text>
         </Card>
-      </Link>
+      </a>
     </Col>
   );
 }
