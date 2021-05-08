@@ -1,9 +1,6 @@
 import React from "react";
-import { Card, Row, Col, Container, Image } from "react-bootstrap";
-import { AboutMeCard } from "../components/AboutMeCard";
+import { Row, Col, Container, Image } from "react-bootstrap";
 import Resume from "../components/Resume";
-import Images from "../images.json";
-import Projects from "../projects.json";
 
 function AboutMe () {
 
