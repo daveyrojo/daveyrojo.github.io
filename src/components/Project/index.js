@@ -18,6 +18,11 @@ export function RandomProject(props) {
         />
         <Card.Text className="cardText">{props.project.description}</Card.Text>
       </a>
+      <Card.Text>
+        <a className="Link" href={props.project.repo}>
+          See the Code Here
+        </a>
+      </Card.Text>
     </Card>
   );
 }
@@ -38,9 +43,13 @@ export function AllProjects(props) {
           />
           <Card.Text className="cardText">
             <p>{props.project.description}</p>
+            <a className="Link" href={props.project.repo}>
+              See the Code Here
+            </a>
           </Card.Text>
         </Card>
       </a>
+      <Card.Text></Card.Text>
     </Col>
   );
 }
