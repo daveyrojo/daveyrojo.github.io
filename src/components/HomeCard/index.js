@@ -6,7 +6,8 @@ import "./style.css";
 function HomeCard() {
   return (
     <div className="aboutMe">
-      <Image className="aboutMeImage"
+      <Image
+        className="aboutMeImage"
         height="150"
         width="150"
         variant="top"
@@ -15,28 +16,23 @@ function HomeCard() {
         fluid
       />
       <p>
-        Well for starters my name, clearly, is David Eldridge! I have 12 years
-        of management experience - close to half my life! - and I am so excited
-        to bring those soft skills to the tech world. After graduating college
-        (with a triple major) I had wanted to get into coding but an upside down
-        economy and a need to alleviate my student loan debt I abstained for
-        several years. During that time I had a 6 year career with Enterprise
-        Rent-A-Car working my way from Management Trainee to District Manager.
-        After stepping away to focus on my family and find what I really wanted
-        to do with my life I looked into a large array of career choices. From
-        being an insurance agent, to a call center manager, to the medical field
-        nothing scratched the itch I had. That itch was to be challenged
-        everyday and work in a logical yet creative field. I started to teach
-        myself coding and quickly realized this is what I wanted to do. With a
-        wide array of specialties to companies and market sectors it was
-        specific enough to know what my next step would be but also broad enough
-        to feel like I wasn't going to get trapped in something overly specific
-        too early. I did a lot of research in different programs and found the
-        Rutgers program to strike the right balance of price, career services,
-        and time. I am extremely proud, excited and motivated to ace the Rutgers
-        Boot Camp program and help as many fellow students as possible. If
-        you've made it this far thank you for your time and I hope to be working
-        with you in the future!
+        Full-Stack web developer with a strong background in business and
+        operations management that allows for innovative problem solving in a
+        way that makes sense for clients and the bottom line. Recently earned a
+        certificate in full stack development from Rutgers University, with
+        skills in JavaScript, CSS, databases, React.js and much more - all of
+        which can be applied for a responsive web app build. My goal is to
+        conduct myself in a professional manner that flies in the face of the
+        status quo for programmers and engage with clients to such a degree that
+        the sales process continues throughout the project to ensure clients are
+        retained easily. I have built out projects that vary from front and
+        backend api databases sites to cryptocurrency market tracking, all of
+        which I took the lead for development ideas on and helped manage from
+        start to completion. My management successes coupled with my desire to
+        learn and improve means that what I bring to the table is an opportunity
+        to succeed in the short term and then thrive in the long term, you will
+        know that you have a capable leader in your ranks who is ready to lead
+        whenever needed.
       </p>
     </div>
   );
