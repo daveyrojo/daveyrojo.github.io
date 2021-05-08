@@ -36,6 +36,9 @@ function AboutMe () {
         </Row>
         <Row>
           <Col lg={5}>
+
+          </Col>
+          <Col lg={5}>
             <p style={{ fontSize: "16px" }}>
               I have been a huge soccer fan for my entire life but I also played
               at a very high level. The passion for working as a team to
@@ -44,14 +47,13 @@ function AboutMe () {
               the same competetive edge!
             </p>
           </Col>
-          <Col lg={4}>
+          <Col lg={2}>
             <Image
               variant="top"
               src={"https://i.imgur.com/2dxLX1V.jpg"}
               style={{
                 alignItems: "center",
                 width: "auto",
-                height: "38%",
                 marginTop: ".1rem",
               }}
               fluid

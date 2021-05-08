@@ -3,7 +3,7 @@ import { Card } from "react-bootstrap";
 
 function Resume () {
   return (
-    <Card style={{ textAlign: "center", marginTop: "2.5em" }} fluid>
+    <Card style={{ textAlign: "center" }} fluid>
       <Card.Title style={{ textAlign: "center" }}>Resume:</Card.Title>
       <a
         style={{ color: "gray", fontSize: 10 }}
