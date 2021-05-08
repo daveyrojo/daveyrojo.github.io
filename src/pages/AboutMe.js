@@ -9,7 +9,13 @@ function AboutMe () {
 
     return (
       <Container fluid>
-        <div style={{ textAlign: "center" }}>
+        <div
+          style={{
+            textAlign: "center",
+            marginTop: "1rem",
+            marginBottom: ".5rem",
+          }}
+        >
           <h3>A Little About Me:</h3>
         </div>
         <Row>
@@ -18,8 +24,20 @@ function AboutMe () {
               variant="top"
               src={"https://i.imgur.com/vYNZiEz.jpg"}
               style={{ alignItems: "center", width: "100%" }}
+              rounded
               fluid
             />
+            <h3 style={{ paddingTop: ".5rem", paddingLeft: "8rem" }}>
+              My strengths in life:
+            </h3>
+            <ul style={{ paddingLeft: "10.9rem", fontSize: "large" }}>
+              <li style={{ padding: ".75rem" }}>Willingness to learn</li>
+              <li style={{ padding: ".75rem" }}>Willingness to learn</li>
+              <li style={{ padding: ".75rem" }}>Determined</li>
+              <li style={{ padding: ".75rem" }}>Resilient</li>
+              <li style={{ padding: ".75rem" }}>Loving</li>
+              <li style={{ padding: ".75rem" }}>Fun</li>
+            </ul>
           </Col>
           <Col lg={5}>
             <p style={{ fontSize: "16px" }}>
@@ -68,6 +86,7 @@ function AboutMe () {
                 alignItems: "center",
                 width: "auto",
               }}
+              rounded
               fluid
             />
             <Resume />
