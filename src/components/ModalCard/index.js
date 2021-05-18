@@ -36,7 +36,7 @@ export function ModalCard() {
         <Card style={{ textAlign: "center" }} fluid>
           Welcome to my online portfolio!
           <Card.Text>
-            To make this convenient right here is all of my resume and contact:
+            Welcome to my online portfolio! To make this convenient, here is all of my resume and contact information:
           </Card.Text>
           <Row style={{ justifyContent: "flex", marginBottom: 15 }}>
             <Card.Img
@@ -52,7 +52,7 @@ export function ModalCard() {
             />
 
             <Col>
-              <a 
+              <a
                 style={{ color: "gray", fontSize: 10 }}
                 type="application/pdf"
                 rel="noreferrer"
@@ -60,7 +60,8 @@ export function ModalCard() {
                 href="https://pdfhost.io/v/4ExQmXzuh_resumeRDpdf.pdf"
                 download="David-V-Eldridge-Resume"
               >
-                <Card.Img className="resumeLink"
+                <Card.Img
+                  className="resumeLink"
                   style={{ width: 240, height: 300 }}
                   src="https://i.imgur.com/66uKXXn.jpg"
                   fluid
